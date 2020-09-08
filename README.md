@@ -19,7 +19,7 @@ Clone the repo:
 ```
 git clone https://github.com/diaomin/PyTorch-implementation-of-GhostNet/
 ```
-To train the model:
+Train the model:
 ```
 python train.py --train-dir=/path/to/train/folder/ --val-dir=/path/to/val/folder/ --model-size=1.0x
 ```
@@ -28,7 +28,7 @@ python train.py --train-dir=/path/to/train/folder/ --val-dir=/path/to/val/folder
 WIP
 
 Performance:
-| models | MACs (M) | Params (M) | Top-1 Acc | Top-5 Acc |
+| Models | MACs (M) | Params (M) | Top-1 Acc | Top-5 Acc |
 |:-----------:|:-------:|:-------:|:--------:|:--------:|
 | GhostNet 1.0x 224 | 5.2 | 141 | 72.5 | 91.0 |
 
@@ -39,6 +39,6 @@ Curves:
 
 # To Do
 * To train ghostnet with more iterations
-* model size 0.5x and 2.0x
+* To train ghostnet with model size 0.5x and 2.0x
 
 
