@@ -8,13 +8,13 @@ Download the ImageNet dataset and move validation images to labeled subfolders. 
 
 ## Training recipe
 * batch size 1024
-* iterations 300,000
+* iterations 450,000
 * learning rate 0.4 (on 8 gpus)
 * weight decay 0.00004
 * dropout rate 0.2 
 * label smoothing 0.1 
 
-# Usage
+# Training from scratch
 Clone the repo:
 ```
 git clone https://github.com/diaomin/PyTorch-implementation-of-GhostNet/
@@ -30,6 +30,7 @@ WIP
 Performance:
 | Models | MACs (M) | Params (M) | Top-1 Acc | Top-5 Acc |
 |:-----------:|:-------:|:-------:|:--------:|:--------:|
+| GhostNet 0.5x 224 | 2.6 |  42 | 65.5 | 86.3 |
 | GhostNet 1.0x 224 | 5.2 | 141 | 72.5 | 91.0 |
 
 Curves:
@@ -39,6 +40,6 @@ Curves:
 
 # To Do
 * To train ghostnet with more iterations
-* To train ghostnet with model size 0.5x and 2.0x
+* To train ghostnet with model size 2.0x
 
 
