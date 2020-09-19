@@ -36,7 +36,10 @@ Performance:
 Curves:
 * from left to right: loss, top-1, top5
 * blue for training and orange for validation
-![training curves](https://github.com/diaomin/PyTorch-implementation-of-GhostNet/blob/master/training%20curves.jpg)
+* model size of 0.5x (450,000 iters)
+![training curves](https://github.com/diaomin/PyTorch-implementation-of-GhostNet/blob/master/training%20curves_0.5x.jpg)
+* model size of 1.0x (300,000 iters)
+![training curves](https://github.com/diaomin/PyTorch-implementation-of-GhostNet/blob/master/training%20curves_1.0x.jpg)
 
 # To Do
 * To train ghostnet with more iterations
